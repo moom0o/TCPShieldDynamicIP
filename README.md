@@ -5,6 +5,7 @@ Made for some server owner friends
 
 ## Using bungeecord/waterfall?
 Make sure to set bungeecord to true in the config and specify your bungeecord port.
+**Make sure to put the jar in the spigot/paper plugins directory NOT the bungee plugins directory!**
 
 ## DESIGNED FOR 1.12.2!
 Don't come crying if it doesn't work on newer versions! (It should.)
