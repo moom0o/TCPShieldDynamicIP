@@ -1,0 +1,4 @@
+name: TCPShieldDynamicIP
+author: moomoo
+version: 1.0
+main: me.moomoo.dynamicip.Main
