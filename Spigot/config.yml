@@ -4,3 +4,7 @@
 Token: "MTUxxxxxxxxxxxxxxxxxxxxxx"
 ID: 150000
 Domain: "*.domain.com"
+
+#Enable if using a proxy.
+Bungeecord: false
+BungeePort: 25565
