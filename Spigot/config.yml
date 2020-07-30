@@ -1,0 +1,6 @@
+# TCPShieldDynamicIP config
+
+# TCPShield data - Find out how to get this at https://github.com/moom0o/TCPShieldDynamicIP
+Token: "MTUxxxxxxxxxxxxxxxxxxxxxx"
+ID: 150000
+Domain: "*.domain.com"
