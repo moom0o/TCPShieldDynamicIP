@@ -36,7 +36,11 @@ public class Main extends JavaPlugin implements Listener {
         JSONObject child = new JSONObject();
         child.put("ID", String.valueOf(getConfig().getInt("ID")));
         child.put("Domain", getConfig().getString("Domain"));
-        child.put("Backend", ip + ":" + Bukkit.getPort());
+        if(getConfig().getBoolean("Bungeecord")){
+            child.put("Backend", ip + ":" + getConfig().getInt("BungeePort"));
+        } else {
+            child.put("Backend", ip + ":" + Bukkit.getPort());
+        }
         data.put("data", child);
         data.put("action", "update");
         System.out.println(data);
